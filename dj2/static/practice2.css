@@ -1,0 +1,70 @@
+body
+{
+    overflow-x: hidden;
+}
+
+.templateTop
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    padding: 5px;
+    
+    border-bottom: 3px solid #333;
+    
+    background-color: black;
+}
+
+.templateTop p
+{
+    color: white;
+    
+}
+
+.templateTop h1
+{
+    color: white;
+    
+}
+
+.templateBottom 
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    width: 100%;
+    padding: 5px;
+    
+    border-top: 3px solid #333;
+    
+    background-color: black;
+}
+
+.templateBottom p
+{
+    color: white;
+    
+}
+
+.likeDefault
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    background-color: gray;
+    
+    height: 200px;
+    width: 200px;
+    
+    clip-path: polygon(22% 0, 21% 36%, 81% 36%, 78% 89%, 57% 100%, 20% 100%, 0 73%, 4% 15%);
+}
+
+.likeClicked
+{
+    background-color: blue;
+}
+
